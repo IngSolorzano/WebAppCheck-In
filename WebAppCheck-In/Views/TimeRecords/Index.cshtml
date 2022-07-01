@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebAppCheck_In.Models.TimeRecord>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Registros</h1>
+
+<p>
+      <a class="nav-link text-Blue" asp-area="" asp-controller="Home" asp-action="Index">Regresar a Inicio</a>
+
+</p>
+
+
+ <form asp-controller="TimeRecords" asp-action="Index">
+     <label class="control-label">Fecha Inicial: 
+        <input type="date"  name="startDate" class="form-controlss"> 
+        Fecha Final:
+        <input type="date"  name="endDate" class="form-controlss">  
+        <input type="submit" value="Buscar" class="btn btn-primary" />
+     </label>  
+
+ </form>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employees.EmployeeNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckInTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckOutTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employees.EmployeeNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckInTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckOutTime)
+                </td>
+
+                <td>                   
+                    <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

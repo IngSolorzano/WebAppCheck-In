@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebAppCheck_In
+build_property.RootNamespace = WebAppCheck_In
+build_property.ProjectDir = C:\Users\lisbe\source\repos\WebAppCheck-In\WebAppCheck-In\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lisbe\source\repos\WebAppCheck-In\WebAppCheck-In
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/TimeRecords/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVJlY29yZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/TimeRecords/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVJlY29yZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/TimeRecords/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVJlY29yZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/TimeRecords/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVJlY29yZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/TimeRecords/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZVJlY29yZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lisbe/source/repos/WebAppCheck-In/WebAppCheck-In/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mxp5f0b3n3

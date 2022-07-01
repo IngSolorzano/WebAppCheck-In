@@ -1,0 +1,41 @@
+﻿@model WebAppCheck_In.Models.TimeRecord
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Entradas y salidas de Empleado</h1>
+
+<h3></h3>
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CheckInTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CheckInTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CheckOutTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CheckOutTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Employees)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Employees.EmployeeNumber)
+        </dd>
+    </dl>
+    <div class="alert" role="alert">
+        Seguro que desea eliminar el empleado : @Html.DisplayTextFor(t => t.Employees.EmployeeNumber)?
+    </div>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Borrar" class="btn btn-danger" /> 
+        <a asp-action="Index">Regresar</a>
+    </form>
+</div>
