@@ -18,6 +18,12 @@ namespace WebAppCheck_In.Models
         [Display(Name ="Correo Electronico")]
         [EmailAddress]
         public string? Email { get; set; }
+        [Display(Name = "Tipo de empleado")]
+        public int? EmployeeTypeId { get; set; }
+
+
+        [Display(Name = "Tipo de empleado")]
+        public EmployeeType? EmployeeType { get; set; }
 
 
     }
